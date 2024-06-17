@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatAPP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer type="module"></script>
+</head>
+<html>
+    <body>
+        <div class="header">
+            Chat app
+        </div>
+        
+        <div id="messages"></div>
+    
+        <div id="sendMsg">
+            <input type="text" id="msgTxt" placeholder="ENTER YOUR MSG...">
+            <button class="send-button" type="submit" id="msgBtn" value="send" onclick="module.sendMsg()">send</button>
+        </div>
+        <script>
+            module = {};
+        </script>
+    </body>
+</html>
+
+

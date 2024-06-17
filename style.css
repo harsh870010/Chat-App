@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    padding:0;
+    background:#e4cece;
+}
+.header{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid ;
+    padding: 20px;
+    color: #000000;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    font-size: 30px;
+}
+#messages{
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:calc( 100% - 50px );
+    background-image: linear-gradient(rgba(0,0,0,0.4),
+rgba(0,0,0,0.4)), url("/chatAPP/logo/wallpaperflare.com_wallpaper\ \(1\).jpg");
+    overflow-y:auto;
+    padding:10px;
+    box-sizing: border-box;
+}
+#sendMsg{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    height:50px;
+    background:#AAA;
+}
+#msgTxt{
+    position: absolute;
+    left:0;
+    top:0;
+    width:calc(100% - 100px);
+    height:100%;
+    padding-left:10px;
+    box-sizing: border-box;
+        
+}
+    
+
+#msgBtn{
+    position: absolute;
+    right:0;
+    top:0;
+    width: 100px;
+    height:100%;
+    
+}
+.outer{
+    width:100%;
+    margin-top:20px;
+    display:flex;
+}
+#inner{
+    padding:10px;
+    box-sizing: border-box;
+    border-radius:10px;
+}
+.me{
+    background:#8800FF;
+    color:#fff;
+}
+.notMe{
+    background:#FFF;
+    color:#000;
+}
+
+
+.send-button {
+padding: 15px 40px;
+background-color: #AAA;
+border: 0;
+color: #e9eddf;
+text-transform: uppercase;
+font-family: helvetica;
+font-size: 16px;
+font-weight: bolder;
+
+}
+
+ 
